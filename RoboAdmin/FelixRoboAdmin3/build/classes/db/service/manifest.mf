@@ -1,0 +1,7 @@
+Bundle-Name: Interfaccia DataBase
+Bundle-Description: Un bundle che rende disponibile l'astrazione di un servizio di DataBase
+Bundle-Vendor: Apache Felix
+Bundle-Version: 1.0.0
+Export-Package: db.service
+Import-Package: org.osgi.framework
+

@@ -1,0 +1,6 @@
+Bundle-Name: Servizio comunicazione IRC
+Bundle-Description: Un bundle che rende disponibile il servizio di comunicazione con IRC
+Bundle-Vendor: Apache Felix
+Bundle-Version: 1.0.0
+Bundle-Activator: communicationLayer.irc.IRCActivator
+Import-Package: db.service, org.osgi.framework, org.osgi.util.tracker,configurator.service, log.service, communicationLayer.service, org.jibble.pircbot

@@ -1,0 +1,7 @@
+Bundle-Name: Interfaccia strato di comunicazione
+Bundle-Description: Un bundle che rende disponibile l'astrazione di un servizio di comunicazione
+Bundle-Vendor: Apache Felix
+Bundle-Version: 1.0.0
+Export-Package: communicationLayer.service
+Import-Package: org.osgi.framework
+

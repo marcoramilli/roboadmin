@@ -1,0 +1,7 @@
+Bundle-Name: Interfaccia intelligenza
+Bundle-Description: Un bundle che rende disponibile l'astrazione di un servizio di intelligenza
+Bundle-Vendor: Apache Felix
+Bundle-Version: 1.0.0
+Export-Package: intelligence.service
+Import-Package: org.osgi.framework
+

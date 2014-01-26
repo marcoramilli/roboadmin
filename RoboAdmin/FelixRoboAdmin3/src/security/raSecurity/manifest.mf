@@ -1,0 +1,7 @@
+Bundle-Name: Servizio di sicurezza per RA
+Bundle-Description: Un bundle che rende disponibile il servizio di sicurezza per RA 
+Bundle-Vendor: Apache Felix
+Bundle-Version: 1.0.0
+Bundle-Activator: security.raSecurity.raSecurityActivator
+Import-Package: org.osgi.framework, org.osgi.util.tracker,  log.service, security.service, db.service, configurator.service
+

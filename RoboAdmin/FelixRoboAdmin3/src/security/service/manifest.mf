@@ -1,0 +1,7 @@
+Bundle-Name: Interfaccia Sicurezza
+Bundle-Description: Un bundle che rende disponibile l'astrazione di un servizio di Sicurezza
+Bundle-Vendor: Apache Felix
+Bundle-Version: 1.0.0
+Export-Package: security.service
+Import-Package: org.osgi.framework
+

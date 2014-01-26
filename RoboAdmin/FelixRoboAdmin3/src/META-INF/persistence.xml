@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="RoboAdminDBPU" transaction-type="RESOURCE_LOCAL">
+    <provider>oracle.toplink.essentials.PersistenceProvider</provider>
+    <class>GUI.Accept</class>
+    <class>GUI.Users</class>
+    <class>GUI.Ircchannellist</class>
+    <class>GUI.Ircproperties</class>
+    <class>GUI.Log</class>
+    <class>GUI.Mp</class>
+    <class>GUI.Oscarproperties</class>
+    <class>GUI.Roboadminproperties</class>
+    <class>GUI.Skypeproperties</class>
+    <class>GUI.Xmppproperties</class>
+    <class>GUI.Yahooproperties</class>
+    <class>GUI.Mysqldbproperties</class>
+    <class>GUI.Msnpproperties</class>
+    <class>GUI.Invalidstring</class>
+    <properties>
+      <property name="toplink.jdbc.user" value="root"/>
+      <property name="toplink.jdbc.password" value="visual"/>
+      <property name="toplink.jdbc.url" value="jdbc:mysql://localhost:3306/RoboAdminDB"/>
+      <property name="toplink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+    </properties>
+  </persistence-unit>
+</persistence>

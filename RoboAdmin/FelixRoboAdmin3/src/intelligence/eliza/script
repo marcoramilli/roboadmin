@@ -1,0 +1,142 @@
+initial: Hola pregúntame sobre Gundam Seed Destiny
+final: Adios.  Espero verte pronto.
+quit: adios
+quit: bye
+quit: sayonara
+quit: te dejo
+quit: me voy
+quit: quit
+synon: cosa minerva gundam orb plant zaft alianza mobile 
+synon: cosas naturales coordinadores
+synon: persona athrun zala shinn asuka kira yamato neo lorrnoke gilbert dullidand talia cagali
+key: xnone
+  decomp: *
+    reasmb: No sabria contestarte
+    reasmb: Pregunta algo que sepa.
+    reasmb: mmmm, no estoy seguro
+    reasmb: sabes de que hablas?
+key: hola
+  decomp: *
+    reasmb: Quiovo?.
+    reasmb: Que onda.  como andas?
+key: si
+  decomp: *
+    reasmb: Que bueno.
+    reasmb: Ya veo.
+key: no
+  decomp: *
+    reasmb: Lástima
+    reasmb: No seas negativo
+key: athrun
+  decomp: * quien es *
+    reasmb: Fue el antagonista en gundam seed, ahora su papel es mas protagonico, en G.S.D. se une a Zaft despues de que la laianza atlántica les declara la guerra
+  decomp: *
+    reasmb: goto xnone
+key: zala 
+  decomp: *
+    reasmb: goto athrun
+key: shinn
+  decomp: * quien es *
+    reasmb: Un joven problematico, antes vivía en Orb pero perdió a sus padres cuando orb entró en guerra, entonces se unió a zaft y ahora pilotea el gundam mas importante de este bando: el impulse
+  decomp: *
+    reasmb: goto xnone  
+key: asuka
+  decomp: *
+    reasmb: goto shinn
+key: kira
+  decomp: * quien es *
+    reasmb: El mejor amigo de Athrun, fue el protagonista de seed ahora su papel es de menor importancia, sin embargo aún un papel importante
+  decomp: *
+    reasmb: goto xnone
+key: yamato
+  decomp: *
+    reasmb: goto kira
+key: neo
+  decomp: * quien es *
+    reasmb: El piloto enmascarado de esta versión de gundam, es un excelente piloto de mobile armors sin embargo este personaje está envuelto de misterio, aparentemente está del lado de la alianza
+  decomp: *
+    reasmb: goto xnone
+key: lorrnoke
+  decomp: *
+    reasmb: goto neo
+key: gilbert
+  decomp: *
+    reasmb: goto dullidand
+key: dullidand
+  decomp: * quien es *
+    reasmb: Es el presidente del consejo supremo de Zaft, parece ser un hombre honesto y buen gobernador, sin embargo sus acciones están envueltas de misterio
+  decomp: *
+    reasmb: goto xnone
+key: talia
+  decomp: * quien es *
+    reasmb: Capitana del Minerva, mujer de temple de acero, una increible estratega y militar dedicada
+  decomp: *
+    reasmb: goto xnone
+key: cagali
+  decomp: * quien es *
+    reasmb: La representante de Orb y pareja sentimental de Athrun, sin embargo se tienen que separar cuando el decide realistarse en las fuerzas de Zaft
+  decomp: *
+    reasmb: goto xnone
+key: gundam
+  decomp: * que es gundam seed destiny *
+    reasmb: Es la secuela de gundam seed, sin embargo la historia toma giros distintos lo cual lo hace mas que una secuela
+  decomp: * que es *
+    reasmb: Es un mobile suit con habilidades mayores a las de un M.S. normal
+  decomp: *
+    reasmb: goto xnone
+key: mobile
+  decomp: * que es mobile suit *
+    reasmb: Es un artefacto militar piloteable diseñado para un combate similar al de cuerpo a cuerpo, pero con proporciones mucho mayores
+  decomp: * que es mobile armor *
+    reasmb: Es mucho mayor que un mobile suit, está diseñado para el combate anti-mobile suits
+  decomp: *
+    reasmb: goto xnone  
+key: minerva
+  decomp: * que es *
+  	reasmb: La mayor fuerza militar de combate de zaft, con capacidades para el combate tanto espacial como terrestre y marino
+  decomp: *
+  	reasmb: goto xnone
+key: orb
+  decomp: * que es *
+  	reasmb: es un conjunto de colonias neutrales, en ellas los coordinadores y los naturales viven en paz
+  decomp: *
+  	reasmb: goto xnone
+key: plant
+  decomp: * que es *
+  	reasmb: Son colonias espaciales, las cuales se consideran como paises independientes, en ellas habitan los coordinadores
+  decomp: *
+  	reasmb: goto xnone
+key: zaft
+  decomp: * que es *
+  	reasmb: Es la organización militar encargada de la defensa de las Plants, su uniforme es rojo
+  decomp: *
+  	reasmb: goto xnone
+key: alianza
+  decomp: * que es *
+  	reasmb: Es la alianza atlántica compuesta por varios paises terrestres que están en contra de la existencia de los coordinadores
+  decomp: *
+  	reasmb: goto xnone
+key: coordinadores
+  decomp: * que son los *
+  	reasmb: Son seres humanos modificados genéticamente para poder vivir en el espacio y tener gran habilidad para el combate^
+  decomp: *
+  	reasmb: goto xnone
+key: naturales
+  decomp: * que son los *
+  	reasmb: Son humanos sin modificaciones genéticas, a ellos les cuesta trabajo vivir en el espacio
+  decomp: *
+  	reasmb: goto xnone
+key: que
+  decomp: * que es @cosa *
+    reasmb: goto (2)
+  decomp: * que son los @cosas *
+    reasmb: goto (2)
+  decomp: * que trata gundam seed destiny *
+    reasmb: Trata los conflictos existentes entre naturales y coordinadores y la gente que quiere paz
+  decomp: *
+  	reasmb: goto xnone
+key: quien
+  decomp: * quien es @persona *
+    reasmb: goto (2)
+  decomp: *
+  	reasmb: goto xnone

@@ -1,0 +1,7 @@
+Bundle-Name: Servizio RoboAdmin
+Bundle-Description: Un bundle che rende disponibile le funzionalità di RoboAdmin
+Bundle-Vendor: Apache Felix
+Bundle-Version: 1.0.0
+Bundle-Activator: RA.V1.RoboAdminActivatorV1
+Export-Package: RA
+Import-Package: org.osgi.framework, org.osgi.util.tracker, RA.service, configurator.service, log.service, communicationLayer.service, db.service, intelligence.service, security.service, javax.mail, javax.mail.internet

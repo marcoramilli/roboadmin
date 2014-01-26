@@ -1,0 +1,7 @@
+Bundle-Name: Servizio intelligenza Eliza
+Bundle-Description: Un bundle che rende disponibile l'intelligenza di Eliza
+Bundle-Vendor: Apache Felix
+Bundle-Version: 1.0.0
+Bundle-Activator: intelligence.eliza.ElizaActivator
+Import-Package: org.osgi.framework, intelligence.service
+

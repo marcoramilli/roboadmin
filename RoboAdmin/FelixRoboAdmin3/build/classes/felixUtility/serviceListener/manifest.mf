@@ -1,0 +1,7 @@
+Bundle-Name: Service listener
+Bundle-Description: A bundle that displays messages at startup and when service events occur
+Bundle-Vendor: Apache Felix
+Bundle-Version: 1.0.0
+Bundle-Activator: felixUtility.serviceListener.Activator
+Import-Package: org.osgi.framework
+

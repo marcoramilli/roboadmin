@@ -1,0 +1,6 @@
+Bundle-Name: Servizio di controllo comunicazione
+Bundle-Description: Un bundle che rende disponibile il servizio di controllo per la comunicazione
+Bundle-Vendor: Apache Felix
+Bundle-Version: 1.0.0
+Bundle-Activator: communicationLayer.controller.ControllerActivator
+Import-Package: org.osgi.framework, org.osgi.util.tracker, RA.service, communicationLayer.service

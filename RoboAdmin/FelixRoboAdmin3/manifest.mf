@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+X-COMMENT: Main-Class will be added automatically by build
+Bundle-Name: Service listener example
+Bundle-Description: A bundle that displays messages at startup and when service events occur
+Bundle-Vendor: Apache Felix
+Bundle-Version: 1.0.0
+Bundle-Activator: Activator
+Import-Package: org.osgi.framework

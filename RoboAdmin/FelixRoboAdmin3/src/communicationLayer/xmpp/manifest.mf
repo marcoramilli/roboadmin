@@ -1,0 +1,6 @@
+Bundle-Name: Servizio comunicazione con protocollo XMPP
+Bundle-Description: Un bundle che rende disponibile il servizio di comunicazione con protocollo XMPP
+Bundle-Vendor: Apache Felix
+Bundle-Version: 1.0.0
+Bundle-Activator: communicationLayer.xmpp.XMPPActivator
+Import-Package: org.osgi.framework, org.osgi.util.tracker,configurator.service, log.service, communicationLayer.service, db.service,  org.jivesoftware.smack, org.jivesoftware.smack.packet

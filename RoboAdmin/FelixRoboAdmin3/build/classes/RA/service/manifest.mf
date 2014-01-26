@@ -1,0 +1,7 @@
+Bundle-Name: Interfaccia interprete
+Bundle-Description: Un bundle che rende disponibile l'astrazione dell'interprete di RA
+Bundle-Vendor: Apache Felix
+Bundle-Version: 1.0.0
+Export-Package: RA.service
+Import-Package: org.osgi.framework
+

@@ -1,0 +1,7 @@
+Bundle-Name: Servizio Log per RA su file
+Bundle-Description: Un bundle che rende disponibile il servizio di Log per RA su file
+Bundle-Vendor: Apache Felix
+Bundle-Version: 1.0.0
+Bundle-Activator: log.fileLogger.FileLoggerActivator
+Import-Package: org.osgi.framework, log.service
+

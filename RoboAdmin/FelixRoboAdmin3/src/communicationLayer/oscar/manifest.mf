@@ -1,0 +1,6 @@
+Bundle-Name: Servizio comunicazione con protocollo OSCAR
+Bundle-Description: Un bundle che rende disponibile il servizio di comunicazione con protocollo OSCAR
+Bundle-Vendor: Apache Felixi
+Bundle-Version: 1.0.0
+Bundle-Activator: communicationLayer.oscar.OSCARActivator
+Import-Package: org.osgi.framework, org.osgi.util.tracker,configurator.service, log.service, communicationLayer.service, db.service, com.aol.acc

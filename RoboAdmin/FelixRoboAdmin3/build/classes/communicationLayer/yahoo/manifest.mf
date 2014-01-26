@@ -1,0 +1,6 @@
+Bundle-Name: Servizio comunicazione con protocollo Yahoo
+Bundle-Description: Un bundle che rende disponibile il servizio di comunicazione con protocollo Yahoo
+Bundle-Vendor: Apache Felix
+Bundle-Version: 1.0.0
+Bundle-Activator: communicationLayer.yahoo.YahooActivator
+Import-Package: org.osgi.framework, org.osgi.util.tracker,configurator.service, log.service, communicationLayer.service, db.service, org.openymsg.network, org.openymsg.network.event, org.openymsg.roster
