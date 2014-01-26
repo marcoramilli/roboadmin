@@ -15,6 +15,6 @@ Remote system's administration is usually performed according to the standard cl
 ### Scientific Papers:
 
 
-![alt text](http://roboadmin.sourceforge.net/documents/messageBased.pdf "A messaging-based system for remote server administration")
-![alt text](http://roboadmin.sourceforge.net/documents/ra-WOSIS-v05.pdf "RoboAdmin: a different approach to remote system administration")
-![alt text](http://roboadmin.sourceforge.net/documents/RA-nss.pdf "messaging-based system for remote server administration"
+![A messaging-based system for remote server administration](http://roboadmin.sourceforge.net/documents/messageBased.pdf) 
+![RoboAdmin: a different approach to remote system administration](http://roboadmin.sourceforge.net/documents/ra-WOSIS-v05.pdf) 
+![messaging-based system for remote server administration](http://roboadmin.sourceforge.net/documents/RA-nss.pdf)
