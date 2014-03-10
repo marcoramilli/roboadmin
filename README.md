@@ -20,3 +20,7 @@ Remote system's administration is usually performed according to the standard cl
 ![RoboAdmin: a different approach to remote system administration](http://roboadmin.sourceforge.net/documents/ra-WOSIS-v05.pdf) 
 
 ![messaging-based system for remote server administration](http://roboadmin.sourceforge.net/documents/RA-nss.pdf)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/marcoramilli/roboadmin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
