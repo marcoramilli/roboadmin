@@ -1,6 +1,6 @@
 ![alt text](http://roboadmin.sourceforge.net/img/alto.jpg "Roboadmin, with the courtesy of amazon")
 
-RoboAdmin
+RoboAdmin [![Support Marco via Gittip](http://img.shields.io/gittip/marco.svg)](https://www.gittip.com/marco/)
 ===========
 
 ### Web Site
